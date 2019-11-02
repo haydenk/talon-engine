@@ -1,0 +1,1 @@
+select id from s3_object where key_name = %s limit 0,1

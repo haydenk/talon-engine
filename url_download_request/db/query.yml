@@ -1,0 +1,14 @@
+ScheduledUrlRequest:
+  error_log_insert: /db/error_log_insert.sql
+  error_log_join: /db/error_log_insert_scheduled_request.sql
+  s3_object_insert: /db/s3_object_insert.sql
+  s3_object_join: /db/s3_object_join_scheduled_request.sql
+  s3_object_select: /db/s3_object_select.sql
+  update: null
+UrlDownloadRequest:
+  error_log_insert: /db/error_log_insert.sql
+  error_log_join: /db/error_log_insert_url_download_request.sql
+  s3_object_insert: /db/s3_object_insert.sql
+  s3_object_join: /db/s3_object_join_url_download_request.sql
+  s3_object_select: /db/s3_object_select.sql
+  update: /db/update_query.sql

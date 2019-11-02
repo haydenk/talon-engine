@@ -1,0 +1,1 @@
+UPDATE `url_download_request` SET `status` = %(new_status)s, `modifiedAt` = NOW() WHERE id = %(entity_id)s

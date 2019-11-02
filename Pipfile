@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+pylint = "*"
+pre-commit = "*"
+mock = "*"
+pytest-mock = "*"
+pyyaml = "*"
+moto = "*"
+feedparser = "*"
+
+[packages]
+boto3 = "*"
+requests = "*"
+rfc3987 = "*"
+aws-sam-cli = "*"
+awscli = "*"
+pymysql = "*"
+
+[requires]
+python_version = "3.7"
